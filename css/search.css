@@ -1,0 +1,85 @@
+body{
+    background-color: whitesmoke;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form p, div p{
+    text-align: center;
+    font-size: 24px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+
+.ricerca{
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: black;
+    border-bottom: 3px solid #800000;
+}
+
+p a , .button{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+p a:hover, .button:hover{
+    background-color: #b80000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button{
+    width: 5%;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1x;
+    font-size: 14px;
+}
+
+#view{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    flex-direction: row;
+}
+  
+.track{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.track:hover{
+    transition: 0.2s;
+    background-color: #800000;
+}
+  
+.track h2, .track h3{
+    font-size: 22px;
+}
+  
+.track_img{
+    width:30%;
+    border: 4px solid black;
+}
